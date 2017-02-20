@@ -1,4 +1,3 @@
-var jsdom = require('jsdom');
 var inquirer = require('inquirer');
 
 var window, answers;
@@ -17,19 +16,6 @@ function start() {
     }));
     
 }
-
-jsdom.env(
-    "https://www.bankofamerica.com",
-    function(err, _window){
-        if(err){
-            throw err;
-       }
-        window = _window;
-        start();
-    }
-);
-
-
 inquirer.prompt(
     [
         {name: 'username', message: 'Username: '},

@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/Jmeggesto/bank-prettify#readme",
   "dependencies": {
-    "inquirer": "^3.0.1",
-    "jsdom": "^9.10.0"
+    "inquirer": "^3.0.1"
+
   }
 }
